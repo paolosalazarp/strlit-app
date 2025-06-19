@@ -5,13 +5,13 @@ import plotly.express as px
 
 # Configuración de la página
 st.set_page_config(
-    page_title="Mi App Streamlit",
+    page_title="Mi última App Streamlit",
     page_icon="🚀",
     layout="wide"
 )
 
 # Título principal
-st.title("🚀 Mi Primera App Streamlit en Docker")
+st.title("🚀 Mi última App Streamlit en Docker, github, azure, python, streamlit")
 st.markdown("---")
 
 # Sidebar
@@ -24,7 +24,7 @@ col1, col2 = st.columns(2)
 
 with col1:
     st.header(f"¡Hola {nombre}!")
-    st.write(f"Tienes {edad} años")
+    st.write(f"Tienes {edad} amigos")
     
     # Botón interactivo
     if st.button("Generar datos aleatorios"):
